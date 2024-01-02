@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Aleo', serif;
+  }
+  
+  .App {
+    display: flex;
+    padding: 3%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  .right-pane {
+    top: 0;
+    left: auto;
+    right: 0;
+    width: 56%;
+    padding: 5% 5%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.login-poster {
+    width: 100%;
+  }
+  
+  .left-login-pane {
+    top: 0;
+    left: 0;
+    right: auto;
+    width: 50%;
+    background-color: #f2f2f2;
+    border-radius: 5%;
+    display: block;
+  }
+  
+  .logo-login {
+    width: 25%;
+    padding: 5%;
+  }
+  
+  .content {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  
+  .logo-login-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .right-header {
+    text-align: center;
+  }
+  
+  .login-info {
+    padding: 3% 2% 3% 2%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .show-password {
+    display: flex;
+  }
+  
+  #check {
+    margin-right: 5%;
+  }
+  
+  .log-in-btn {
+    width: 100%;
+    background-color: #db2727;
+    color: white;
+    border-style: none;
+    font-size: 1vw;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 5%;
+    cursor: pointer;
+  }
+  
+  .log-in-btn:active {
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.5);
+  }
