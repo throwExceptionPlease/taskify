@@ -6,6 +6,7 @@ Taskify was designed to streamline task management by providing users with a sea
 
 ## Tech Stack
 Front-End: React.js, CSS, HTML
+
 Backend: Firebase (not yet implemented: Authentication, Database, Hosting)
 
 ## Run Locally
